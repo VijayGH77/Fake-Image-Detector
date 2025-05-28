@@ -1,1 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb_save
+
+# Streamlit files
+.streamlit/
+
+# Secrets and API Keys
+.env
+*.key
+*.pem
+
+# VS Code settings
+.vscode/
+
+# System files
 .DS_Store
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Log files
+*.log

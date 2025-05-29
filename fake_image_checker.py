@@ -1,3 +1,11 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # This loads the .env file
+
+API_USER = os.getenv("523065712")
+API_SECRET = os.getenv("ZXRd7UaQhkqAcstYTyU4PRA4sTDgXzxZ")
+
 import streamlit as st
 import requests
 

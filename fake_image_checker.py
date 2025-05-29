@@ -11,6 +11,7 @@ import requests
 
 # App title
 st.title("🕵️‍♂️ Fake Image Detection App")
+st.markdown("✅ You are viewing the development version of the app.")
 
 # Upload image
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png", "HEIC"])

@@ -11,7 +11,7 @@ API_SECRET = os.getenv("API_SECRET")
 
 # App title and instructions
 st.set_page_config(page_title="Fake Image Detection - Dev", layout="centered")
-st.title("🧪Fake Image Detection App: DEV")
+st.title("🧪Fake Image Detection App: QA")
 st.markdown("Upload an image to check if it may be **AI-generated or manipulated**.")
 
 # File uploader
